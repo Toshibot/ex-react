@@ -5,7 +5,7 @@ import Ladder from "./components/Ladder";
 
 const App = () => {
   return (
-    <div>
+    <div className="u-flex">
       <Ladder />
       <Fixture />
     </div>
