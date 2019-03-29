@@ -58,22 +58,22 @@ const styles = css`
     padding: 12.5px 0 12.5px;
     line-height: 1.5;
 
-    &__day {
-      display: inline-block;
-      margin-right: 10px;
+    span {
       font-weight: 600;
     }
 
-    &__date {
+    span,
+    time {
       display: inline-block;
+    }
+
+    &__day,
+    &__date {
       margin-right: 10px;
-      font-weight: 600;
     }
 
     &__month {
-      display: inline-block;
       margin-right: 5px;
-      font-weight: 600;
     }
 
     &__time {
